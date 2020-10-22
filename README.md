@@ -1,5 +1,5 @@
 # Discord Chessbot
-A bot for the instant messaging app Discord. The bot talks to the Chess.com API to provide users with detailed player stats, leaderboards, livestreams, chess puzzles etc.
+A bot for the instant messaging app Discord. The bot uses the Chess.com API to provide users with detailed player stats, leaderboards, livestreams, chess puzzles etc.
 
 <b>SETUP INSTRUCTIONS</b>
 - Make sure you have Node installed (version 12+)
