@@ -4,6 +4,7 @@ A bot for the instant messaging app Discord. The bot talks to the Chess.com API 
 <b>SETUP INSTRUCTIONS</b>
 - Make sure you have Node installed (version 12+)
 - Replace CHESSBOT_TOKEN in the .env file with your bot token
+- Replace CHESSBOT_PREFIX in the .env file with your desired prefix.
 - Once downloaded, run "npm install"
 - Start the bot with "npm start"
 
