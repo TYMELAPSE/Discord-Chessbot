@@ -25,7 +25,11 @@ module.exports = {
         \n(${PREFIX}puzzle)`)
         .addField(`${PREFIX}tournaments[PlayerUsername]`,
         `Displays a users 10 highest rated tournaments.
-        \n(${PREFIX}tournamentsHikaru)`);
+        \n(${PREFIX}tournamentsHikaru)`)
+        .addField(`${PREFIX}clubs[PlayerUsername]`,
+        `Displays all user clubs`)
+        .addField(`${PREFIX}offline`,
+        `Marks the bots status as offline.`);
 
         message.channel.send(embed);
     }

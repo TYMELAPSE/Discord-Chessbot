@@ -54,6 +54,9 @@ client.on("message", (message) => {
             let username = filteredMessage.substring("tournaments".length);
             client.commands.get("tournaments").execute(message, username, embed);
             
+        }else if(filteredMessage === "offline"){
+            client.user.setStatus("invisible");
+            client.user.setPresence({status: 'invisible'});
         }
     }
 
